@@ -21,13 +21,13 @@ export default function CoursesNavigation() {
         className={({ isActive }) => isActive ? "list-group-item active border border-0" : "list-group-item text-danger border border-0"}
         > Zoom </NavLink>
         
-      <NavLink to="/Kanbas/Courses/1234/Assignments" id="wd-course-quizzes-link"
-        className={({ isActive }) => isActive ? "list-group-item active border border-0" : "list-group-item text-danger border border-0"}
-        > Assignments </NavLink>
-        
-      <NavLink to="/Kanbas/Courses/1234/Quizzes" id="wd-course-assignments-link"
+      <NavLink to="/Kanbas/Courses/1234/Quizzes" id="wd-course-quizzes-link"
         className={({ isActive }) => isActive ? "list-group-item active border border-0" : "list-group-item text-danger border border-0"}
         > Quizzes </NavLink>
+        
+      <NavLink to="/Kanbas/Courses/1234/Assignments" id="wd-course-assignments-link"
+        className={({ isActive }) => isActive ? "list-group-item active border border-0" : "list-group-item text-danger border border-0"}
+        > Assignments </NavLink>
         
       <NavLink to="/Kanbas/Courses/1234/People" id="wd-course-people-link"
         className={({ isActive }) => isActive ? "list-group-item active border border-0" : "list-group-item text-danger border border-0"}

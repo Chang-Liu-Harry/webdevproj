@@ -6,9 +6,6 @@ import ModulesControlButtons from "../Modules/ModulesControlButtons";
 import { BsGripVertical } from "react-icons/bs";
 import { PiNotePencil } from "react-icons/pi";
 
-
-
-
 export default function Assignments() {
   return (
     <div id="wd-assignments" className="container">
